@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.customBtn{
+  padding: 1px 7px;
+    border-radius: 58%;
+    text-align: center;
+}

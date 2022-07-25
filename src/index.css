@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.customBtn{
+  padding: 1px 7px;
+    border-radius: 58%;
+    text-align: center;
+}
+.docTypeContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addDocContainer{
+  border: 1px solid #20c997;
+    padding: 0px;
+    width: max-content;
+}
+
+.addDocInput{
+  outline: none;
+  border: none;
+  height: 33px;
+  padding-inline: 10px;
+}
+.addDocBtn{
+  border: none;
+    background: #20c997;
+    height: 33px;
+    color: white;
+    margin-left: -2px;
+}
+.userStatus{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userInfo{
+    margin-block: 40px 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    background-color: #e7e8ec;
+}
+.colorField{
+  color: #20c997;
+}
